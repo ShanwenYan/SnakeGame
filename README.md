@@ -1,2 +1,2 @@
 # SnakeGame
-I learnt how to code this classical snake game from Youtuber EngineerGuy
+I learnt how to code this classical snake game from Youtuber Engineer Man
