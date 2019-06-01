@@ -8,7 +8,7 @@ import random
 import curses
 
 
-# In[2]:
+# In[8]:
 
 
 s = curses.initscr()
@@ -19,11 +19,11 @@ w.keypad(1)
 w.timeout(100)
 
 
-# In[ ]:
+# In[5]:
 
 
-snk_x = sw/4
-snk_y = sh/2
+snk_x = sw//4
+snk_y = sh//2
 snake = [
     [snk_y,snk_x],
     [snk_y,snk_x-1],
@@ -31,10 +31,10 @@ snake = [
 ]
 
 
-# In[ ]:
+# In[13]:
 
 
-food = [sh/2.sw/2]
+food = [sh//2,sw//2]
 w.addch(food[0],food[1],curses.ACS_PI)
 
 
